@@ -1,0 +1,168 @@
+body
+{
+	background-image: url(back3.jpg);
+}
+
+
+.header
+{
+	background-color: rgba(0,255,255,0.3);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 20%;
+
+	width: 100%;
+}
+
+p
+{
+	background-color: rgba(255,0,0,0.25);
+	width: 200px;
+	height: 100px;
+	
+	color: green;
+	font-weight: bold;
+	font-size: 150%;
+	
+}
+
+#p1
+{
+	position: absolute;
+	top: 230px;
+	left: 50px;
+}
+
+#p2
+{
+	position: absolute;
+	top: 230px;
+	left: 320px;
+}
+
+#p3
+{
+	position: absolute;
+	top: 230px;
+	left: 590px;
+}
+
+#p4
+{
+	position: absolute;
+	top: 230px;
+	left: 860px;
+}
+
+#p5
+{
+	position: absolute;
+	top: 230px;
+	left: 1130px;
+}
+
+#p6
+{
+	position: absolute;
+	top: 400px;
+	left: 50px;
+}
+
+#p7
+{
+	position: absolute;
+	top: 400px;
+	left: 320px;
+}
+
+#p8
+{
+	position: absolute;
+	top: 400px;
+	left: 590px;
+}
+
+#p9
+{
+	position: absolute;
+	top: 400px;
+	left: 860px;
+}
+
+#p10
+{
+	position: absolute;
+	top: 400px;
+	left: 1130px;
+}
+
+#i1
+{
+	position: absolute;
+	top: 233px;
+	left: 40px;
+}
+
+#i2
+{
+	position: absolute;
+	top: 233px;
+	left: 310px;
+}
+
+#i3
+{
+	position: absolute;
+	top: 233px;
+	left: 580px;
+}
+
+#i4
+{
+	position: absolute;
+	top: 233px;
+	left: 850px;
+}
+
+#i5
+{
+	position: absolute;
+	top: 233px;
+	left: 1120px;
+}
+
+#i6
+{
+	position: absolute;
+	top: 403px;
+	left: 40px;
+}
+
+#i7
+{
+	position: absolute;
+	top: 403px;
+	left: 310px;
+}
+
+#i8
+{
+	position: absolute;
+	top: 403px;
+	left: 580px;
+}
+
+#i9
+{
+	position: absolute;
+	top: 403px;
+	left: 850px;
+}
+
+#i10
+{
+	position: absolute;
+	top: 403px;
+	left: 1120px;
+}

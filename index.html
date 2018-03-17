@@ -6,6 +6,8 @@
 -->
 <html>
 	<head>
+		<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 		<title>Massively by HTML5 UP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -53,6 +55,50 @@
 					<div id="main">
 
 						<!-- Featured Post -->
+
+
+<div class="container">
+	>
+  <div class='row'>
+    <div class='col-md-12'>
+      <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+        <!-- Bottom Carousel Indicators -->
+        
+        <div class="carousel-inner">
+        <h2 style="text-align: center;text-decoration: underline;"><a href="#">Recent Activities</a></h2>
+        <br>
+          <div class="item active">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-6 text-center">
+                  <img class="img-circle" src="images/pic01.jpg" style="width: 100px;height:100px;">
+                </div>
+                <div class="col-sm-6">
+                  <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!</p>
+                  <small>20 March,2018</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+         <hr>
+          <div class="item">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-6 text-center">
+                  <img class="img-circle" src="images/pic02.jpg" style="width: 100px;height:100px;">
+                </div>
+                <div class="col-sm-6">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris.</p>
+                  <small>20 March,2018</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+        </div>
+      </div>                          
+    </div>
+  </div>
+</div>
 							<article class="post featured">
 								<header class="major">
 									<span class="date">April 25, 2017</span>
@@ -195,53 +241,6 @@ In my second year I extensively planned a tech-integration program for classes 8
         </li>
         
     </ul>
-    <div class="mobile">
-    	<ul class="timeline">
-        <li>
-          <div class="timeline-badge"><i class="material-icons" >attachment</i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Students' Alumni Cell</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11 hours ago via Twitter</small></p>
-            </div>
-            <div class="timeline-body">
-              <p>Students’ Alumni Cell, IIT Kharagpur is a voluntary student body working under the aegis of the Dean of Alumni Affairs. The main purpose of Students’ Alumni Cell is to keep the alumni connected to the institute so that they can comfortably give back to the institute. The giving back need not just be in a monetary way but also in the form of guidance to the existing students. I have been a part of Students’ Alumni Cell for two years now, first as student member and then as the General Secretary. As a student member I was part of the executive committee which conducted the 14th Annual Alumni Meet along with many other initiatives.<br>
-
-A
-</p>
-            </div>
-          </div>
-        </li>
-        <li>
-          <div class="timeline-badge danger"><i class="material-icons">computer</i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Ernst & Young</h4>
-            </div>
-            <div class="timeline-body">
-              <p>Ernst and Young or EY, is a renowned professional services company. It is a multinational company headquartered in London. I got the wonderful opportunity to do an internship during May 2017. I obtained a lot of corporate experience that I expected, from EY. I designed information memorandum which is a detailed report and guidelines for investors under the national project of “Make in India”. Using the sharp analytical mind that I developed during my stay in KGP, I studied investment queries from the portal of Ministry of Commerce & Industry to enlist and filter investors’ details. In addition to this I also assisted the advisory team in drafting the final report of potential investment opportunities in “Make in India” project.
-</p>
-            </div>
-          </div>
-        </li>
-        <li>
-          <div class="timeline-badge info"><i class="material-icons">traffic</i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Rankethon</h4>
-            </div>
-            <div class="timeline-body">
-              <p>Rankethon is an institution which trains students in technical fields, give them the required mindset for the startup culture and finally give them incubation as well as mentorship for them to enter the corporate world with their idea. The very idea of this startup intrigued me in my first year. As the city head I organized Summer Camp Classes for Web and App Development for the very first time for schools in Kanpur and Malda. This ignited the young minds of the schools involved and they developed a technical temperament. 
-
-In my second year I extensively planned a tech-integration program for classes 8 to 12 which led to the establishment of Digital Learning System and Tech Laboratories. This enabled the students of those schools to participate in Techkriti, the tech-fest of IIT-BHU, making them the first and only student team to ever participate in Techkriti. Currently Rankethon is growing at a fast rate due to the tie up with “100 open startups” enabling it to help other tech startups to establish their place in the corporate world.</p>
-              <hr>
-              
-            </div>
-          </div>
-        </li>
-        
-    </ul>
-    </div>
 
 							</footer>
 
@@ -438,5 +437,86 @@ In my second year I extensively planned a tech-integration program for classes 8
 }
 .timeline-body > p + p {
   margin-top: 5px;
+}
+/* carousel */
+#quote-carousel 
+{
+  padding: 0 10px 30px 10px;
+  margin-top: 30px 0px 0px;
+      border: solid; 
+    border-color: black;
+
+}
+
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators 
+{
+  top: 130px;
+  bottom: auto;
+  
+}
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+#quote-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+#quote-carousel img
+{
+  width: 250px;
+  height: 100px
+}
+/* End carousel */
+
+.item blockquote {
+    border-left: none; 
+    margin: 0;
+    
+}
+
+.item blockquote img {
+    margin-bottom: 10px;
+}
+
+
+
+
+/**
+  MEDIA QUERIES
+*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #quote-carousel 
+    {
+      margin-bottom: 0;
+      padding: 0 40px 30px 40px;
+      margin-top: 30px;
+    }
+    
+}
+
+/* Small devices (tablets, up to 768px) */
+@media (max-width: 768px) { 
+    
+    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+    
+    #quote-carousel .carousel-indicators {
+        bottom: -20px !important;  
+    }
+    #quote-carousel .carousel-indicators li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 15px;
+        height: 15px;
+    }
+    #quote-carousel .carousel-indicators li.active {
+        margin: 0px 5px;
+        width: 20px;
+        height: 20px;
+    }
 }
 </style>

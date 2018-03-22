@@ -154,28 +154,32 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
 <div class="service" id="services">
      <div class="container">
 	 
-	 		<h3 class="w3l_head two">My Experiences</h3>
-			<p class="w3ls_head_para">INTERNATIONAL RELATIONS CELL</p>
+	 		<h3 class="w3l_head two">My KGP Journey</h3>
+			<p class="w3ls_head_para"></p>
     <div class="service-agileits">
 			
-			<div class="col-md-4 list-gds text-center">
+			<div class="col-md-3 list-gds text-center">
 				<i class="fa fa-cog" aria-hidden="true"></i>
 				<h4>SEMESTER AWAY PROGRAM</h4>
 				<p>SAP provides students with the unique opportunity of studying in any university of his choice whether in India or abroad for a semester or two.
 			</div>
-			<div class="col-md-4 list-gds text-center">
+			<div class="col-md-3 list-gds text-center">
 				<i class="fa fa-laptop" aria-hidden="true"></i>
 				<h4>FOREIGN TRAINING PROGRAM </h4>
 				<p>Under FTP, we have standardized and institutionalized the process of applying for training under professors abroad.</p>
 			</div>
-				<div class="col-md-4 list-gds text-center">
+				<div class="col-md-3 list-gds text-center">
 				<i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
 				<h4>MoU DRIVE</h4>
 				<p>Under this
 initiative, we have initiated MoUs by the professors of our institute who have collaborations with other
 foreign institutes</p>
 			</div>
-
+				<div class="col-md-3 list-gds text-center">
+				<i class="fa fa-cog" aria-hidden="true"></i>
+				<h4>SEMESTER AWAY PROGRAM</h4>
+				<p>SAP provides students with the unique opportunity of studying in any university of his choice whether in India or abroad for a semester or two.
+			</div>
 			<div class="clearfix"></div>			
 		
 	 </div>
@@ -198,7 +202,7 @@ foreign institutes</p>
 		 </div>
 		 
 	    <div class="col-md-8 education-w3l">
-		     <h3 class="w3l_head three">Initiatives</h3>
+		     <h3 class="w3l_head three" style="font-size: 280%;">Experiences & Initiatives</h3>
 			  <div class="education-agile-grids">
 				  <div class="education-agile-w3l">
 				     <div class="education-agile-w3l-year">
@@ -530,7 +534,7 @@ Degree Program</h2>
 
 	
 <!-- //mail -->
-<!-- footer -->
+<!-- 
 	<div class="w3l_footer">
 		<div class="container">
 			
@@ -572,9 +576,36 @@ Degree Program</h2>
 			</div>
 		</div>
 		<div class="w3l_footer_pos">
-			<p>© 2017 Devanand Kedia <!-- Design by <a href="https://w3layouts.com/">W3layouts</a>--></p>
+			<p>© 2017 Devanand Kedia <</p>
 		</div>
-	</div>
+	</div>footer -->
+
+	<footer class="grid">
+  <div class="branding">
+    <h2>Vishal Kumar Singh</h2>
+    <p><br><br><br></p>
+     <p></p>
+  </div>
+  
+  <div class="social" style="padding: 20px;">
+
+  	<table style="padding: 303px;">
+  		<tr style="padding: 30px;">
+<td>
+    <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+    </td><td></td><td>
+    <a href="#"><i class="fa fa-instagram fa-2x"></i></a>
+    </td><td></td><td><a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
+    </td></tr>
+    </table>
+  </div>
+
+  
+  <div class="contact">
+    <p><i class="fa fa-phone fa-2x"></i>55 555-5555</p>
+    <p><i class="fa fa-envelope fa-2x"></i>mail@mail.mail</p>
+  </div>
+</footer>
 <!-- //footer -->
 <script src="js\jquery-2.2.3.min.js"></script> 
 <!-- skills -->
@@ -695,5 +726,67 @@ Degree Program</h2>
 <!-- //here ends scrolling icon -->
 </body>
 </html>
+<style type="text/css">
+	* {
+  margin: 0;
+  padding: 0;
+}
 
+a {
+  text-decoration: none;
+  color: #eadaa2;
+  
+  &:hover {
+    color: darken(#eadaa2, 10%);
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-columns: minmax(min-content, auto);
+  align-items: center;
+  justify-items: center;
+  background-color: #333;
+  color: #eadaa2;
+  
+  @media(max-width:50em) {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 0;
+  }
+  
+  i {
+    padding: 5px;
+  }
+}
+
+.social {
+  @media(max-width:50em) {
+    grid-row-start: 1;
+  }
+}
+
+.contact {
+  padding: 5px;
+  
+  @media(max-width:50em) {
+    grid-row-start: 2;
+    background-color: darken(#c73e1d, 5%);
+  }
+}
+
+.branding {
+  padding: 10px;
+  
+  p {
+    padding: 5px;
+  }
+  
+  @media(max-width:50em) {
+    grid-row-start: 3;
+    text-align: center;
+  }
+}
+</style>
 <!-- Created by Vivek Kumar & Kamal Singh Nayal -->

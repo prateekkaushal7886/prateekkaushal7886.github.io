@@ -336,6 +336,7 @@ input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3ls_footer_gr
     z-index: 990;
     display: block;
     text-align: center;
+    opacity: 0;
 }
 .slider-top span{
 	font-weight:600;

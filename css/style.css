@@ -20,6 +20,12 @@ h1,h2,h3,h4,h5,h6{
 	text-transform:uppercase;
 	margin:0;
 }
+h4 {
+    font-weight: 300;
+    margin: 0;
+    line-height: 2rem;
+    font-size: 1.875rem;
+}
 ul,label{
 	margin:0;
 	padding:0;
@@ -921,90 +927,140 @@ p.counter {
 }
 /*-- //mail --*/
 /*-- footer --*/
-.w3l_footer{
-	     background: #000;
-       padding: 4em 0 3em 0;
+
+/*footer widget*/
+
+.footer_widget{
+    background: url(../images/footerbg.jpg) no-repeat top center;
+    color:#fff;
+    background-size: cover;
 }
-.w3l_footer form{
-	width: 45%;
-    margin: 3em auto 0;
+.footer_widget .main_widget{
+    padding: 55px 15px 80px 15px; 
+    overflow: hidden;
 }
-.w3ls_footer_grid {
-    margin: 0 auto;
+.single_widget{
+    margin-bottom:30px;
+}
+.single_widget ul li{
+    margin-bottom:10px;
+}
+.single_widget ul li a{
+    width:100%;
+    display:block;
+    overflow: hidden;
+    font-size:0.875rem;
+    color:#fff;
+    line-height: 1.4rem;
+}
+.single_widget ul li a i{
+    width:8%;
+    margin-right:2%;
+    float:left;
+    color:#fff;
+    font-size:1rem;
+    padding: 2px;
+}
+.single_widget ul li a span{
+    width:90%;
+    float:left;
+}
+
+.footer_logo{
+    margin-bottom: 20px;
+}
+
+.single_widget li.single_latest_news{
+    margin-bottom: 20px;
+}
+.footer_subcribs_area .navbar-form {
+    padding: 0;
+}
+.footer_subcribs_area .form-control {
+    font-size: 14px;
+    border: 1px solid #a199b4;
+    color:#a199b4;
+    border-radius:0px;
+    width: 70%;
+    display: inline-block;
+    height: 45px;
+    background-color:transparent;
+    line-height: 20px;
+}
+
+.footer_subcribs_area .submit_btn{
+    background: #a099b4;
+    border: 0px solid #ccc;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 0px;
+    height: 45px;
+    outline: none;
+    width: 25%;
+    transition: all .6s;
+    margin-left:5px;
+}
+
+.footer_subcribs_area .submit_btn:hover{
+    background: #fff;
+    color: #47366d;
+}
+.footer_subcribs_area .submit_btn:before {
+    content: "\f1d9";
+    font-family: 'Fontawesome';
     text-align: center;
+    font-size:1rem;
 }
-.w3ls_footer_grids p.agileits_w3layouts_est{
-	color:#fff;
-	line-height:2em;
-	margin:2em auto 5em;
-	    margin: 0 auto;
-	text-align:center;
+.footer_subcribs_area .flowus{
+    margin-top:10px;
+    display: inline-block;
 }
-.w3ls_footer_grid_leftl{
-	    width: 55px;
-    height: 55px;
-    border-radius: 50px;
+.footer_subcribs_area .flowus a i{
+    color:#fff;
+    font-size:1rem;
+    padding: 5px;
+    border:1px solid #fff;
+    border-radius: 50%;
+    width:30px;
+    height:30px;
     text-align: center;
-    background: #d27c0c;
-    margin: 0 auto;
+    line-height: 18px;
+    margin-right:5px;
+    margin-top:10px;
 }
-.w3ls_footer_grid_leftl i{
-	color: #fff;
-    font-size: 1em;
-    line-height: 3.4em;
+.footer_subcribs_area .flowus a i:hover{
+    color:#6feee5;
+    border:1px solid #6feee5;
 }
-.w3ls_footer_grid_leftr{
-    margin-top: 10px;
+.video_overlay {
+    background-color: rgba(76, 61, 114, 0.8);
+    width: 100%;
+    height: auto;
 }
-.w3ls_footer_grid_leftr h4{
-	font-size: 1.2em;
-    color: #fff;
-    letter-spacing: 3px;
-    margin-bottom: .5em;
+
+/*footer section*/
+
+.main_footer .right_menu{
+    padding: 40px 0px;
 }
-.w3ls_footer_grid_leftr p{
-	color:#999;
-	line-height:1.5em;
+.main_footer .right_menu li a{
+    color:#fff;
 }
-.w3ls_footer_grid_leftr a{
-	color:#999;
-	text-decoration:none;
-	font-size:14px;
+.copyright_text p{
+    color:#fff;
+    line-height: 25px;
+    padding:40px;
+    max-width: 100%;
 }
-.w3ls_footer_grid_leftr a:hover{
-	color:#d27c0c;
+.copyright_text p i{
+    padding:0px 10px;
+    color:#ff0000;
 }
-.w3l_footer_pos{
-      margin-top: 4em;
+.copyright_text p a{
+    padding:0px 10px;
+    color:#3bd3ba;
 }
-.w3l_footer_pos p{
-	text-align:center;
-	color:#fff;
-	line-height:1.8em;
-}
-.w3l_footer_pos p a{
-	color:#d27c0c;
-	text-decoration:underline;
-}
-.w3l_footer_pos p a:hover{
-	color:#fff;
-}
-.w3ls_footer_grid_left:hover .w3ls_footer_grid_leftl{
-	background:#fff;
-}
-.w3ls_footer_grid_left:hover .w3ls_footer_grid_leftl i{
-	color:#212121;
-}
-.w3ls_footer_grid_left:hover .w3ls_footer_grid_leftr h4{
-	color:#d27c0c;
-}
-.w3ls_footer_grid_left {
-      background: #2e2e2e;
-    float: left;
-    width: 31%;
-    margin: 0 10px;
-    padding: 20px 20px;
-}
+
 /*-- //footer --*/
 .map iframe{
 	width:100%;

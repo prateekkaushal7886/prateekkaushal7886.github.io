@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<title>Vishal Kumar Singh</title>
@@ -23,6 +23,11 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 <link href="//fonts.googleapis.com/css?family=Gidugu" rel="stylesheet">
 <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+
+
 </head>
 
 
@@ -33,28 +38,31 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<div class="main" id="home">
 		<!-- banner -->
 		<div class="banner">
+		<button class="btn btn-success" onclick="window.location.href='#mail'" style="position: absolute;top: 0%;right:0%;"><b>CONTACT ME</b></button><br>
 			<!--Slider-->
-			<img src="images\profile2.jpg" style="width:250px; height:250px;border-radius: 50%;" alt=" " class="img-responsive">
-			<br><h2>Vishal Kumar Singh</h2>
-			<span>LET'S START CHANGING THINGS</span>
+			<img src="images\profile2.jpg" style="width:250px; height:250px;border-radius: 50%;border: 0px;" alt=" " class="img-responsive">
+			<br><!--<h2>Vishal Kumar Singh</h2>
+			<span style="font-weight: bold;color: #20b6b7;">LET'S START CHANGING THINGS</span>-->
+			<img src="images/capt.png" style="border: 0px;width: 350px;">
 			<div class="callbacks_container">
 				<ul class="rslides" id="slider3">
 					<li>
 						
 						<div class="slider-info">
-							<p>Positive Action combined with Positive Thinking results in success.</p>
+							<p><b>Positive Action combined with Positive Thinking results in success.</b></p>
 						</div>
 					</li>
 					<li>
 						<div class="slider-info">
 
-							<p>Leaders don’t create followers, they create more leaders.</p>
+							<p><b>Adopting the right attitude can convert a negative stress into a positive one.</b></p>
 						</div>
 					</li>
 					<li>
 
 						<div class="slider-info">
-							<p>The best way to predict the future is to create it.</p>
+							<p><b>A journey of a thousand miles starts with a single step.</b>
+</p>
 							
 						</div>
 					</li>
@@ -66,10 +74,11 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			</div>
 			<!--//Slider-->
 			<ul class="top-links">
-				<li><a target="_blank" href="https://www.facebook.com/profile.php?id=100010338962799"><i class="fa fa-facebook"></i></a></li>
-				<li><a target="_blank" href="https://www.linkedin.com/in/vishal-kumar-singh-284a89125/"><i class="fa fa-linkedin"></i></a></li>
+				<li><a href="https://www.facebook.com/profile.php?id=100010338962799" target="_blank"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="https://www.linkedin.com/in/vishal-kumar-singh-284a89125/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
 
 			</ul>
+			<br>
 		</div>
 		<!-- //banner -->
 	</div>
@@ -80,7 +89,12 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			<div class="col-md-2"></div><div class="col-md-8">
 				<h3 class="w3l_head">About Me</h3>
 				<p class="w3ls_head_para"></p>
-				<center><p style="text-align: justify;">I am <b> Vishal Kumar Singh </b>, an undergraduate student of the department of <b>Mining Engineering</b>. I am from <b>Gorakhpur</b>, Uttar Pradesh. I have spent almost three years in Kharagpur and a major part of my personality has been moulded her in this beautiful place.<br><br> So in gratitude, I wish to serve the community I reside in. For this I need to walk with all of you together. Please reach out to me if you have any positive criticism or suggestions </p></center>
+				<center><p style="text-align: justify;">I am <b>Vishal Kumar Singh</b>, an undergraduate student of the department of <b>Mining Engineering, Indian Institute of Technology, Kharagpur</b> enrolled in its dual degree course with specialisation in <b>Financial Engineering</b>. Originally from <b>Gorakhpur, Uttar Pradesh</b>, I am currently a boarder of <b>Rajendra Prasad Hall of Residence</b>. Having spent almost three years in Kharagpur, it has enabled me to transform a major part of my personality and given me a platform to enrich my experiences.<br><br>
+
+Working with dedication and zeal, Kharagpur has instilled in me a sense of bonding with the people around me and made me a team player. Being involved in different activities at the hall and institute levels has helped me believe that by working strategically with right intentions and a well coordinated team, we can achieve all sets of goals. So in gratitude, I wish to serve the community I reside in, to help Indian Institute of Technology, Kharagpur transform into a world class institute
+
+
+</p></center>
 
 			</div>
 			<div class="col-md-2"></div>
@@ -96,9 +110,9 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			<div class="service-agileits">
 
 				<div class="col-md-3 list-gds text-center">
-					<img src="images/sac_logo.png" >
+					<img src="images/sac_logo.png" width="100px">
 					<h4 style="color: #44c7f4">STUDENTS' ALUMNI CELL</h4>
-					<p>General Secretary<br>2017-18
+					<p>General Secretary<br>2017-Present
 
 					</div>
 					<div class="col-md-3 list-gds text-center">
@@ -108,18 +122,18 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						</p>
 					</div>
 					<div class="col-md-3 list-gds text-center">
-						<img src="images/rankethon.png" width="100px;" height="100px;">
+						<img src="images/rankethon.png" width="90px;  height="100px;"  style="border-radius:50%;" >
 						<h4 style="color: #44c7f4">RANKETHON</h4>
 						<p>
-							City Head <br>August 2015-September 2016<br>
+							Marketing Executive <br>November 2016-Present<br>
 
 						</p>
 					</div>
 					<div class="col-md-3 list-gds text-center">
-						<i class="fa fa-book" aria-hidden="true"></i>
-						<h4 style="color: #44c7f4"><br>ACADEMICS</h4>
+						<img src="images/book6.png" width="100px;" height="100px">
+						<h4 style="color: #44c7f4">ACADEMICS</h4>
 						<p>  Department Rank 1<br> among Dual Degree students
-							<br><br>
+<br><br>
 						</div>
 						<div class="clearfix"><br></div>			
 
@@ -128,7 +142,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			</div>
 			<!-- //services -->
 			<!-- /education --><br><br>
-			<div class="education" id="education">
+			<div class="education" id="education" style="background-image: url(images/banner.jpg);">
 				<div class="col-md-2 skills">
 
 				</div>
@@ -141,12 +155,29 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 								<h5 style="font-size: 23px;">2017-PRESENT</h5>
 								<h6>Students' Alumni Cell<br></h6>
 								<br>
-								<img src="images/kgplogo.png" width="95px;">
+								<img src="images/kgplogo.png" width="80px;">
 							</div>
 							<div class="education-agile-w3l-info">
 								<h4><center>General Secretary 
 								</center></h4>
-								<p>Under my leadership, the 15th Annual Alumni Meet saw more than 300 alumni, highest ever in the past 15 years. Also I have been instrumental in launching two new Programs ACAP and Affinity Program. Through ACAP (Alumni Career Assistance Program) the final and pre-final year students get help from the recent alumni to understand the complex CDC procedure.  Also there is the newly launched Affinity Program which aims at giving exclusive benefits to KGPians. Though in its infant stages, this program has tremendous potential in the long run placing IIT KGP in the elite group of colleges in the world having such a program.</p>
+								<p style="text-align: justify;"><ul>
+  <li>Worked under the dean, and selected to lead a team of 35 members to work in coordination with Institutional Development Executives to execute <b>Student-Alumni activities across the globe</b> .
+
+ </li>
+  <li><b>Executive head</b> of key events and activities of the cell which include Annual Alumni Meet, Phonathon and Student Alumni Meets.
+</li>
+  <li>Under my leadership, Student Alumni Meets were coordinated and conducted in Kolkata, Hyderabad, Mumbai and Bangalore with immense positive response from the students and alumni alike. 
+
+
+</li>
+<li><b>Solely responsible for the Fundraising</b> activities of Students’ Alumni Cell and assisted Institute’s Fundraising Officials to develop fundraising strategies of IIT Kharagpur.
+
+</li>
+<li>Played an active role in bringing in <b>IIT-BHU</b> and <b>IIT Roorkee</b> under the umbrella of <b>SPARC (Students’ Pan-IIT Alumni Relations Cell)</b>.</li>
+<li>Was instrumental in ideating and formulating the productive discussion and initiatives approved in the <b>All Deans’ Meet</b> held in IIT Guwahati in 2018.
+</li>
+  
+</ul> </p>
 
 							</div>
 							<div class="clearfix"></div>
@@ -157,11 +188,18 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 								<h6>2017 Summer Internship<br>
 
 								</h6><br>
-								<img src="images/EY.png" width="95px;">
+								<img src="images/EY2.png" width="80px;">
 							</div>
 							<div class="education-agile-w3l-info">
 								<h4><center>Ernst & Young</center></h4>
-								<p> I designed information memorandum which is a detailed report and guidelines for investors under the national project of “Make in India”. Using the sharp analytical mind that I developed during my stay in KGP, I studied investment queries from the portal of Ministry of Commerce & Industry to enlist and filter investors’ details. In addition to this I also assisted the advisory team in drafting the final report of potential investment opportunities in “Make in India” project.
+								<p> <ul>
+  <li>Designed information memorandum, which is a detailed report and set of guidelines for investors under the national project of <b>“Make in India”</b>. 
+ </li>
+  <li>Using strategic processes, examined investment queries from the portal of <b>Ministry of Commerce & Industry</b> to enlist and filter investors’ details. 
+</li>
+  <li>In addition to this, assisted the advisory team in drafting the final report of potential investment opportunities in “Make in India” project.
+</li>
+</ul> 
 								</p>
 
 							</div>
@@ -173,11 +211,28 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 								<h6>
 									Students’ Alumni Cell<br>
 								</h6><br>
-								<img src="images/kgplogo.png" width="95px;">
+								<img src="images/kgplogo.png" width="80px;">
 							</div>
 							<div class="education-agile-w3l-info">
 								<h4><center>Student Member</center></h4>
-								<p>I started my association with Students’ Alumni Cell as a student member in 2016. I was in the executive team responsible for conducting the 14th Annual Alumni Meet. It was a highly successful meet with huge Year over Year increase of funds raised through Sponsorship and Registrations of Alumni.</p>
+								<p><ul>
+  <li>Organised the <b>14th Annual Alumni Meet</b> from 13th-15th January 2016
+
+</li>
+  <li>Generated <b>INR 4.20 million</b> as a team through Corporate Engagement Programme for the 14th Annual Alumni Meet.
+
+
+</li>
+<li>Organized the <b>Student Alumni Meet in Kolkata and Hyderabad </b>connecting numerous KGPians.
+
+</li>
+<li>Spearheaded <b>Guest Lectures and e-Guest Lectures</b> by alumni of diverse fields of expertise.
+
+</li>
+<li>Expanding, updating and maintaining the database of the alumni of the institute, and developing strategies to achieve the same.
+</li>
+  
+</ul> </p>
 
 							</div>
 							<div class="clearfix"></div>
@@ -189,11 +244,17 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									Rankethon<br>
 								</h6>
 								<br>
-								<img src="images/rankethon.png" width="95px;">
+								<img src="images/rankethon.png" width="80px;">
 							</div>
 							<div class="education-agile-w3l-info">
 								<h4><center>Marketing Executive</center></h4>
-								<p>I extensively planned a tech-integration program for classes 8 to 12 which led to the establishment of Digital Learning System and Tech Laboratories in schools across Uttar Pradesh. The grooming and exposure enabled the students of those schools to participate in Techkriti, the tech-fest of IIT Kanpur, making them the first and only student team to ever participate in Techkriti.</p>
+								<p><ul>
+  <li>Extensively planned a <b>tech-integration program</b> for classes 8 to 12 which led to the establishment of <b>Digital Learning System</b> and innovation based Technical Research Laboratories in schools across Uttar Pradesh.
+</li>
+  <li>The grooming and exposure enabled the students of those schools to participate in Techkriti, the tech-fest of IIT Kanpur, <b>making them the first and only student team to ever participate in Techkriti</b>.
+</li>
+  
+</ul> </p>
 
 							</div>
 							<div class="clearfix"></div>
@@ -202,62 +263,66 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<div class="education-agile-w3l-year">
 								<h4>2017-2018</h4>
 								<h6>
-									Rankethon<br>
+									<br>
 								</h6>
 								<br>
-								<img src="images/kgplogo.png" width="95px;">
+								<img src="images/ACAP.png" width="80px;">
 							</div>
 							<div class="education-agile-w3l-info">
 								<h4><center>Alumni Career Assistance Program</center></h4>
-								<p>I extensively planned a tech-integration program for classes 8 to 12 which led to the establishment of Digital Learning System and Tech Laboratories in schools across Uttar Pradesh. The grooming and exposure enabled the students of those schools to participate in Techkriti, the tech-fest of IIT Kanpur, making them the first and only student team to ever participate in Techkriti.</p>
+								<p><ul>
+  <li>Alumni Career Assistance Program or ACAP is a program for final and pre-final year students to understand the <b>complex procedure of CDC placements and internships</b> from the most recently graduated students.</li>
+  <li>This program was launched under my leadership for the very first time this year.</li>
+  <li>It saw an alumni registration of <b>over 400</b> for mentoring the students.</li>
+  <li>Around <b>500 students</b> registered for being mentored by the recent alumni.
+</li>
+  <li>With <b>immense positive response</b> from the students the very first year of this program was a huge success.</li>
+</ul> </p>
 
 							</div>
 							<div class="clearfix"></div>
 						</div>
-						<div class="education-agile-w3l two">
+<div class="education-agile-w3l two">
 							<div class="education-agile-w3l-year">
-								<h4>2016-2017</h4>
+								<h4>2017-2018</h4>
 								<h6>
-									Rankethon<br>
+									<br>
 								</h6>
 								<br>
-								<img src="images/kgplogo.png" width="95px;">
+								<img src="images/year17.jpg" width="80px;">
 							</div>
 							<div class="education-agile-w3l-info">
 								<h4><center>Yearbook</center></h4>
-								<p>I extensively planned a tech-integration program for classes 8 to 12 which led to the establishment of Digital Learning System and Tech Laboratories in schools across Uttar Pradesh. The grooming and exposure enabled the students of those schools to participate in Techkriti, the tech-fest of IIT Kanpur, making them the first and only student team to ever participate in Techkriti.</p>
+								<p><ul>
+  <li>Yearbook is a KGP memoir given to each and every graduating student of the year.</li>
+  <li><b>The web portal</b> for Yearbook was completely <b>revamped</b> this year with the addition of many new features.
+</li>
+  <li>The <b>initiative of class song</b> was taken up for the very first time this year. All the graduating students will be dancing to the song of their choice. It is a memorable way of keeping the recent alumni connected.
+</li>
+</ul> </p>
 
 							</div>
 							<div class="clearfix"></div>
 						</div>
-						<div class="education-agile-w3l two">
+<div class="education-agile-w3l two">
 							<div class="education-agile-w3l-year">
-								<h4>2016-2017</h4>
+								<h4>2017-2018</h4>
 								<h6>
-									Rankethon<br>
+									<br>
 								</h6>
 								<br>
-								<img src="images/kgplogo.png" width="95px;">
+								<img src="images/samp.png" width="80px;">
 							</div>
 							<div class="education-agile-w3l-info">
 								<h4><center>Student Alumni Mentorship Program</center></h4>
-								<p>I extensively planned a tech-integration program for classes 8 to 12 which led to the establishment of Digital Learning System and Tech Laboratories in schools across Uttar Pradesh. The grooming and exposure enabled the students of those schools to participate in Techkriti, the tech-fest of IIT Kanpur, making them the first and only student team to ever participate in Techkriti.</p>
-
-							</div>
-							<div class="clearfix"></div>
-						</div>
-						<div class="education-agile-w3l two">
-							<div class="education-agile-w3l-year">
-								<h4>2016-2017</h4>
-								<h6>
-									Rankethon<br>
-								</h6>
-								<br>
-								<img src="images/kgplogo.png" width="95px;">
-							</div>
-							<div class="education-agile-w3l-info">
-								<h4><center>Affinity Program</center></h4>
-								<p>I extensively planned a tech-integration program for classes 8 to 12 which led to the establishment of Digital Learning System and Tech Laboratories in schools across Uttar Pradesh. The grooming and exposure enabled the students of those schools to participate in Techkriti, the tech-fest of IIT Kanpur, making them the first and only student team to ever participate in Techkriti.</p>
+								<p><ul>
+  <li>Student Alumni Mentorship Program was made flexible to a great extent under my leadership.
+</li>
+  <li><b>Dynamic Allocation</b> was adopted this year for the very first time to increase the efficiency and fairness of the allocation process.</li>
+  <li>More than <b>230 alumni</b> have registered for this program to mentor the students.
+</li>
+<li>Under my leadership, we saw an <b>increase of 145%</b> in student registrations.</li>
+</ul> </p>
 
 							</div>
 							<div class="clearfix"></div>
@@ -271,11 +336,18 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									Rankethon 
 								</h6>
 								<br>
-								<img src="images/rankethon.png" width="95px;">
+								<img src="images/rankethon.png" width="80px;">
 							</div>
 							<div class="education-agile-w3l-info">
 								<h4><center>City Head</center></h4>
-								<p>I organized Summer Camp of Web and App Development for the first time in schools of Malda and Kanpur. This ignited the young minds of the schools involved and they developed a technical temperament
+								<p><ul>
+  <li>Organized <b>Summer Camp</b> for school students of Malda and Kanpur to extend the learning of website and application development.
+ 
+</li>
+  <li>This ignited the young minds of the participating schools leading to generation of impactful ideas which were further worked upon with support from Rankethon team. 
+</li>
+  
+</ul> 
 
 								</p>
 
@@ -289,6 +361,12 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
+
+
+
+
+
+
 			<!-- //education -->
 			<!-- /experience -->
 
@@ -297,6 +375,9 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			<div class="portfolio" id="gallery">
 				<div class="container">
 					<h3 class="w3l_head">Gallery</h3>
+					<!-- Start of CuterCounter Code -->
+<a href="http://www.cutercounter.com/" target="_blank"><img src="http://www.cutercounter.com/hit.php?id=6659&nd=6&style=27" border="0" alt="Hit Counter" style="display: none;"></a>
+<!-- End of CuterCounter Code -->
 					<p class="w3ls_head_para">
 						<div class="agileits_portfolio_grids">
 							<div class="col-md-4 agileits_portfolio_grid">
@@ -304,7 +385,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									<a class="cm-overlay" href="images\profile2.jpg">
 										<img src="images\profile2.jpg" alt=" " class="img-responsive">
 										<div class="overlay">
-											<h2 style="color: orange; padding-top:20%;">Office of Alumni Affairs & Interntional Relations</h2>
+											<h2 style="color: orange; padding-top:20%;">Office of Alumni Affairs & International Relations</h2>
 
 										</div>
 									</a>
@@ -356,7 +437,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									<a class="cm-overlay" href="images\23.jpg">
 										<img src="images\23.jpg" alt=" " class="img-responsive">
 										<div class="overlay">
-											<h2 style="color: orange; padding-top:20%;"></h2>
+											<h2 style="color: orange; padding-top:20%;">Closing Ceremony,15th AAM</h2>
 
 										</div>
 									</a>
@@ -390,43 +471,44 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 				</div>
 
 				<div class="mail" id="mail">
-					<div class="container">
-						<h3 class="w3l_head w3l_head1">Contact Me</h3>
-						<p class="w3ls_head_para w3ls_head_para1">GIVE YOUR VALUABLE SUGGESTIONS</p>
-						<div class="w3_mail_grids">
-							<form action="" method="post">
-								<div class="col-md-6 w3_agile_mail_grid">
-									<span class="input input--ichiro">
-										<input class="input__field input__field--ichiro" type="text" id="input-25" placeholder=" " required="">
-										<label class="input__label input__label--ichiro" for="input-25">
-											<span class="input__label-content input__label-content--ichiro">Your Name</span>
-										</label>
-									</span>
-									<span class="input input--ichiro">
-										<input class="input__field input__field--ichiro" type="email" id="input-26" placeholder=" " required="">
-										<label class="input__label input__label--ichiro" for="input-26">
-											<span class="input__label-content input__label-content--ichiro">Your Email</span>
-										</label>
-									</span>
-									<span class="input input--ichiro">
-										<input class="input__field input__field--ichiro" type="text" id="input-27" placeholder=" " required="">
-										<label class="input__label input__label--ichiro" for="input-27">
-											<span class="input__label-content input__label-content--ichiro">Your Phone Number</span>
-										</label>
-									</span>
-
-								</div>
-								<div class="col-md-6 w3_agile_mail_grid">
-									<textarea name="Message" placeholder="Your Message" required=""></textarea>
-									<input type="submit" value="Submit">
-								</div>
-								<div class="clearfix"> </div>
-							</form>
-						</div>
+		<div class="container">
+			<h3 class="w3l_head w3l_head1">Contact Me</h3>
+			<p class="w3ls_head_para w3ls_head_para1" style="font-weight: bolder;letter-spacing: 2px;" >Please give your valuable suggestions.
+</p>
+			<div class="w3_mail_grids">
+				<form id="form1">
+					<div class="col-md-6 w3_agile_mail_grid">
+						<span class="input input--ichiro">
+							<input class="input__field input__field--ichiro" type="text" id="input-25" placeholder=" " required="" name="name">
+							<label class="input__label input__label--ichiro" for="input-25">
+								<span class="input__label-content input__label-content--ichiro">Your Name</span>
+							</label>
+						</span>
+						<span class="input input--ichiro">
+							<input class="input__field input__field--ichiro" type="email" id="input-26" placeholder=" " required="" name="email" required>
+							<label class="input__label input__label--ichiro" for="input-26">
+								<span class="input__label-content input__label-content--ichiro">Your Email</span>
+							</label>
+						</span>
+						<span class="input input--ichiro">
+							<input class="input__field input__field--ichiro" type="text" id="input-27" placeholder=" " required="" name="phone">
+							<label class="input__label input__label--ichiro" for="input-27">
+								<span class="input__label-content input__label-content--ichiro">Your Phone Number</span>
+							</label>
+						</span>
+						
 					</div>
-				</div>
-				
-				<section id="footer" class="footer_widget">
+					<div class="col-md-6 w3_agile_mail_grid">
+						<textarea name="Message" placeholder="Your Message" required=""></textarea>
+						<input type="submit" value="Submit">
+					</div>
+					<div class="clearfix"> </div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+				<section id="footer" class="footer_widget" style="background-color: black;">
 					<div class="video_overlay">
 						<div class="container">
 							<div class="row">
@@ -434,12 +516,12 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									<div class="row">
 										<div class="main_widget">
 											<div class="col-sm-4 col-xs-12">
-												<h4>Vishal Kumar Singh </h4>
+												
 												<div class="footer_logo">
 													<img src="images/kgplogo.png" alt="" style="height: 113px;padding-left: 14%;">
 												</div>
 												
-
+<h4>Vishal Kumar Singh </h4>
 
 
 											</div>
@@ -447,13 +529,13 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 											<div class="col-sm-4  col-xs-12">
 												<div class="single_widget">
 													<h4>MY LOCATION</h4>
-													<ul>
+													<ul style="list-style: none;">
 														<li><a href="https://www.google.co.in/maps/place/Rajendra+Prasad+Hall+of+Residence/@22.3223511,87.3059477,17z/data=!3m1!4b1!4m5!3m4!1s0x3a1d4405bdc14a0d:0x47c554fdb4e205d6!8m2!3d22.3223462!4d87.3081364" target="_blank">
 															<i class="fa fa-map-marker"></i> 
-															<span>Rajendra Prasad hall of residence, IIT Kharahpur</span>
+															<span>D-245 Rajendra Prasad hall of residence, IIT Kharagpur</span>
 														</a></li>
 														<li><i class="fa fa-phone"></i> +91 8769797343</li>
-														<li ><a target="_blank" href="mailto:vishalsingh08.iitkgp@gmail.com"><i class="fa fa-envelope" >	<span style="font-size: 80%;">vishalsingh08.iitkgp@gmail.com</span></i></a></li>
+														<li ><a target="_blank" href="mailto:vishalsingh08.iitkgp@gmail.com"><i class="fa fa-envelope" ></i>	<span style="font-size: 80%;">vishalsingh08.iitkgp@gmail.com</span></a></li>
 													</ul> 
 												</div>
 											</div>
@@ -485,56 +567,57 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 
 
 
-			
 
-				<!-- //footer -->
-				<script src="js\jquery-2.2.3.min.js"></script> 
-				<!-- skills -->
-				<script src="js\pie-chart.js" type="text/javascript"></script>
-				<script type="text/javascript">
-					$(document).ready(function () {
-						$('#demo-pie-1').pieChart({
-							barColor: '#44c7f4',
-							trackColor: '#fff',
-							lineCap: 'round',
-							lineWidth: 8,
-							onStep: function (from, to, percent) {
-								$(this.element).find('.pie-value').text(Math.round(percent) + '%');
-							}
-						});
-						$('#demo-pie-2').pieChart({
-							barColor: '#44c7f4',
-							trackColor: '#fff',
-							lineCap: 'butt',
-							lineWidth: 8,
-							onStep: function (from, to, percent) {
-								$(this.element).find('.pie-value').text(Math.round(percent) + '%');
-							}
-						});
-						$('#demo-pie-3').pieChart({
-							barColor: '#44c7f4',
-							trackColor: '#fff',
-							lineCap: 'square',
-							lineWidth: 8,
-							onStep: function (from, to, percent) {
-								$(this.element).find('.pie-value').text(Math.round(percent) + '%');
-							}
-						});
 
-						$('#demo-pie-4').pieChart({
-							barColor: '#44c7f4',
-							trackColor: '#fff',
-							lineCap: 'square',
-							lineWidth: 8,
-							onStep: function (from, to, percent) {
-								$(this.element).find('.pie-value').text(Math.round(percent) + '%');
-							}
-						});
+
+			<!-- //footer -->
+			<script src="js\jquery-2.2.3.min.js"></script> 
+			<!-- skills -->
+			<script src="js\pie-chart.js" type="text/javascript"></script>
+			<script type="text/javascript">
+				$(document).ready(function () {
+					$('#demo-pie-1').pieChart({
+						barColor: '#44c7f4',
+						trackColor: '#fff',
+						lineCap: 'round',
+						lineWidth: 8,
+						onStep: function (from, to, percent) {
+							$(this.element).find('.pie-value').text(Math.round(percent) + '%');
+						}
 					});
-				</script>
-				<!-- skills -->	
-				<script src="js\responsiveslides.min.js"></script>
-				<script>
+					$('#demo-pie-2').pieChart({
+						barColor: '#44c7f4',
+						trackColor: '#fff',
+						lineCap: 'butt',
+						lineWidth: 8,
+						onStep: function (from, to, percent) {
+							$(this.element).find('.pie-value').text(Math.round(percent) + '%');
+						}
+					});
+					$('#demo-pie-3').pieChart({
+						barColor: '#44c7f4',
+						trackColor: '#fff',
+						lineCap: 'square',
+						lineWidth: 8,
+						onStep: function (from, to, percent) {
+							$(this.element).find('.pie-value').text(Math.round(percent) + '%');
+						}
+					});
+
+					$('#demo-pie-4').pieChart({
+						barColor: '#44c7f4',
+						trackColor: '#fff',
+						lineCap: 'square',
+						lineWidth: 8,
+						onStep: function (from, to, percent) {
+							$(this.element).find('.pie-value').text(Math.round(percent) + '%');
+						}
+					});
+				});
+			</script>
+			<!-- skills -->	
+			<script src="js\responsiveslides.min.js"></script>
+			<script>
 								// You can also use "$(window).load(function() {"
 								$(function () {
 								  // Slideshow 4
@@ -604,4 +687,129 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		<!-- //here ends scrolling icon -->
 	</body>
 	</html>
-	
+	<style type="text/css">
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	a {
+		text-decoration: none;
+		color: #eadaa2;
+
+		&:hover {
+			color: darken(#eadaa2, 10%);
+		}
+	}
+	.grid {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-auto-columns: minmax(min-content, auto);
+		align-items: center;
+		justify-items: center;
+		background-color: #333;
+		color: #eadaa2;
+
+		@media(max-width:50em) {
+			grid-template-columns: 1fr;
+			grid-template-rows: repeat(3, 1fr);
+			grid-gap: 0;
+		}
+
+		i {
+			padding: 5px;
+		}
+	}
+	.social {
+		@media(max-width:50em) {
+			grid-row-start: 1;
+		}
+	}
+	.contact {
+		padding: 5px;
+
+		@media(max-width:50em) {
+			grid-row-start: 2;
+			background-color: darken(#c73e1d, 5%);
+		}
+	}
+	.branding {
+		padding: 10px;
+
+		p {
+			padding: 5px;
+		}
+
+		@media(max-width:50em) {
+			grid-row-start: 3;
+			text-align: center;
+		}
+	}
+</style>
+
+
+
+<script type="text/javascript">
+$(function () {
+        $('#form1').on('submit', function (e) {
+          e.preventDefault();
+          $.ajax({
+            type: 'post',
+            url: 'postdata.php',
+            data: $('#form1').serialize(),
+            success: function (response) {
+               if(response== 0 )
+               {
+                swal({
+  title: "WRONG CAPTCHA!",
+  text: "Please re-enter the captcha!",
+  icon: "error",
+  buttons: true,
+  dangerMode: true,
+}).then((value) => {
+ 
+});
+}
+else if(response== 1 )
+               {
+                swal({
+  title: "INCOMPLETE DETAILS!",
+  text: "Please fill all the details!",
+  icon: "error",
+  buttons: true,
+  dangerMode: true,
+}).then((value) => {
+ 
+});
+}
+else if(response== 2 )
+  {
+ swal({
+  title: "Thank you!",
+  text: "I will get back to you soon!",
+  icon: "success",
+  buttons: true,
+  dangerMode: true,
+}).then((value) => {
+  window.location="http://vishaliitkgp.in/";
+ 
+});
+//alert(response);
+}
+else
+{
+  alert(response);
+}
+            }
+          });
+        });
+      });
+</script> 
+
+
+<style type="text/css">
+	@media only screen and (min-width: 1920px) {
+    .skills
+    {
+    	height: 2560px;
+    }
+</style>

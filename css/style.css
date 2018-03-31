@@ -521,16 +521,19 @@ h3.w3l_head.two {
 }
 /*-- //services --*/
 /*-- /skills --*/
-.skills{
+
+@media only screen and (min-width: 1920px) {
+/*.skills{
       background: url(../images/banner.jpg) no-repeat center top;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-       min-height: 690px;
+       min-height: 1690px;
     padding-top: 9em;
-}
+}*/
+  }
 .skill-agile h4 {
     font-size: 1.6em;
     text-transform: uppercase;

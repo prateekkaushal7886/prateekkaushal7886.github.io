@@ -26,19 +26,42 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-
+	<style>
+  		#nav a:hover{
+  			color: rgba(79,63,66);
+  			background-color: rgb(41,124,18);
+  		}
+  		#cnga {
+  				padding-left: 25px;
+  				padding-right: 25px;
+  		}
+  	</style>
 
 </head>
 
 
 <body>
+	<nav class="navbar navbar-inverse navbar-fixed-top" style="font-size: 15px;">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a href="#" class="navbar-brand" style="color: rgb(33,138,4);font-family: comic sans ms;"> #Vishal_4_VP</a>
+				</div>
+				<ul class="nav navbar-nav" id="nav">
+					<li class="active"><a href="#about" id="cnga">About me</a></li>
+					<li><a href="#services" id="cnga">My KGP Journey</a></li>
+					<li><a href="#education" id="cnga">Experiences & Initiatives</a></li>
+					<li><a href="#gallery" id="cnga">Gallery</a></li>
+					<button class="btn btn-success navbar-btn" onclick="window.location.href='#mail'"> <b>CONTACT ME</b></button>
+				</ul>
+			</div>
+		</nav>
 	<!-- header -->
 	
 	<!-- //header -->
 	<div class="main" id="home">
 		<!-- banner -->
 		<div class="banner">
-		<button class="btn btn-success" onclick="window.location.href='#mail'" style="position: absolute;top: 0%;right:0%;"><b>CONTACT ME</b></button><br>
+		<br>
 			<!--Slider-->
 			<img src="images\profile2.jpg" style="width:250px; height:250px;border-radius: 50%;border: 0px;" alt=" " class="img-responsive">
 			<br><!--<h2>Vishal Kumar Singh</h2>
@@ -105,7 +128,7 @@ Working with dedication and zeal, Kharagpur has instilled in me a sense of bondi
 	<div class="service" id="services">
 		<div class="container">
 
-			<h3 class="w3l_head two">My KGP Journey</h3>
+			<h3 class="w3l_head two" id="journey">My KGP Journey</h3>
 			<p class="w3ls_head_para"></p>
 			<div class="service-agileits">
 

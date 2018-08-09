@@ -10,4 +10,7 @@ if ($connection->connect_error) {
 } else {
 //  echo "Connection Successful<br>";
 }
+
+//Ayush here
+
 ?>

@@ -32,7 +32,9 @@ mysqli_close($conn);
 //exit();
 $message = "wrong answer";
 */
+ 
 
+ //Ayush here
 
 session_start();
 require 'connection.php';
